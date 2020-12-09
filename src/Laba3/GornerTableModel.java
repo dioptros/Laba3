@@ -32,9 +32,8 @@ public class GornerTableModel extends AbstractTableModel {
                 }
                 return result;
             }
-            case 2:{
-                if((int)result==result) return true;
-                else return false;
+            case 2: {
+                return result > 0;
             }
             default: {
                 return 0;
