@@ -16,8 +16,8 @@ import javax.swing.*;
 @SuppressWarnings("serial")
 public class Main extends JFrame {
 
-    private static final int WIDTH = 700;
-    private static final int HEIGHT = 500;
+    private static final int WIDTH = 800;
+    private static final int HEIGHT = 600;
 
     private Double[] coefficients;
 
